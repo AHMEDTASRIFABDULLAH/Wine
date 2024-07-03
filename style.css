@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Marcellus SC", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  color: #fff;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+#nav {
+  display: flex;
+  height: 140px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+#nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 58%;
+}
+#nav h1 {
+  font-size: 20px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+#nav i {
+  font-size: 20px;
+  margin-right: 6px;
+}
+#nav h5 {
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+#nav img {
+  height: 120px;
+}
+#line {
+  width: 70px;
+  height: 2px;
+  background-color: red;
+}
+#con {
+  height: calc(100% - 140px);
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+#left {
+  width: 39%;
+  height: 100%;
+  padding: 30px 80px;
+}
+#left h1 {
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 20px;
+}
+#left h1 span {
+  color: red;
+  font-size: 50px;
+  font-weight: 900;
+}
+#left p {
+  font-size: 16px;
+}
+#left button {
+  background-color: red;
+  padding: 18px 40px;
+  border-radius: 50px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin-top: 55px;
+  border: 1px solid lightblue;
+}
+#left button i {
+  margin-right: 8px;
+}
+#right {
+  width: 34%;
+  height: 100%;
+  padding: 280px 100px;
+}
+#center {
+  width: 24%;
+  height: 100%;
+  padding-top: 40px;
+}
+#centerimg {
+  height: 82%;
+  width: 100%;
+  background-color: aqua;
+  border-top-left-radius: 1000px;
+  border-top-right-radius: 1000px;
+  background-image: url(https://mrwallpaper.com/images/high/wine-neon-signage-mc4enqa0hyznbh3h.webp);
+  background-size: cover;
+  background-position: 20%;
+  filter: blur(6px);
+}
+#con img {
+  height: 100%;
+  position: absolute;
+  left: 53%;
+  transform: translate(-50%, 0);
+}
+#mainr {
+  width: 350px;
+}
+#r1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  border-bottom: 1px solid white;
+  opacity: 0.7;
+}
+#r1 h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+#r1 i {
+  font-size: 22px;
+}
+#r2 h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+#r2 p {
+  font-size: 13px;
+  width: 80%;
+  opacity: 0.7;
+}
